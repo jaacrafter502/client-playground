@@ -1,0 +1,15 @@
+= Performance Test Client
+
+== Build
+
+[source,shell]
+----
+./gradlew clean build
+----
+
+== Run
+
+[source,shell]
+----
+java -jar build/libs/client-0.0.1-SNAPSHOT.jar
+----
