@@ -3,3 +3,15 @@
 1723198051761:say-hello Mahlzeit
 1723198141599:SAY_HELLO
 1723198269992:exit
+1723205598455:say-hello --name hhh
+1723205614610:exit
+1723458509418:help
+1723458521892:exit
+1723459048376:help
+1723459079991:start-performance-test --url http://localhost:8080/info/hello --count 10
+1723459257595:quit
+1723459291084:start-performance-test --url http://localhost:8080/info/hello --count 10
+1723459323860:start-performance-test --url http://localhost:8080/info/hello --count 1000
+1723459329034:start-performance-test --url http://localhost:8080/info/hello --count 100000
+1723459373581:start-performance-test --url http://localhost:8080/info/hello --count 10000000
+1723459677725:exit

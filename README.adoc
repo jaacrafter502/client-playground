@@ -2,6 +2,8 @@
 
 == Build
 
+=== Standard Java
+
 [source,shell]
 ----
 ./gradlew clean build
@@ -12,4 +14,25 @@
 [source,shell]
 ----
 java -jar build/libs/client-0.0.1-SNAPSHOT.jar
+----
+
+=== GraalVM Native Image
+
+[source,shell]
+----
+./gradlew clean nativeImage
+----
+
+=== Run
+
+[source,shell]
+----
+ da liegt irgendwo so ein "client" file rum ...
+----
+
+== Test
+
+[source,shell]
+----
+start-performance-test --url http://localhost:8080/info/hello --count 1000000
 ----
