@@ -55,3 +55,10 @@
 1723709970837:exit
 1723710017767:start-performance-test --count 10 --url http://localhost:8080/info/hello
 1723710054251:start-performance-test --url http://localhost:8080/info/hello --count 1000
+1723711464984:start-performance-test --url http://localhost:8080/info/hello --count 100000
+1723711584414:start-performance-test --url http://localhost:8080/info/hello --count 1000000
+1723711616143:start-performance-test --url http://localhost:8080/info/hello --count 100000
+1723711659501:start-performance-test --url http://localhost:8080/info/hello --count 1000000
+1723712545079:start-performance-test --url http://localhost:8080/info/hello --count 100000
+1723712639313:start-performance-test --url http://localhost:8080/info/hello --count 10000
+1723712668540:start-performance-test --url http://localhost:8080/info/hello --count 100000
