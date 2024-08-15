@@ -36,3 +36,18 @@ java -jar build/libs/client-0.0.1-SNAPSHOT.jar
 ----
 start-performance-test --url http://localhost:8080/info/hello --count 1000000
 ----
+
+[cols="1,1,2"]
+|===
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 2, row 2
+
+|Cell in column 1, row 3
+|Cell in column 2, row 3
+|Cell in column 2, row 3
+|===

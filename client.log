@@ -15,3 +15,43 @@
 1723459329034:start-performance-test --url http://localhost:8080/info/hello --count 100000
 1723459373581:start-performance-test --url http://localhost:8080/info/hello --count 10000000
 1723459677725:exit
+1723549257280:help
+1723549296044:start-performance-test --count 100 --url http://192.168.178.75:8080/info/perf-test
+1723549310441:get-cpu-cores
+1723549323823:start-performance-test --count 100 --url http://192.168.178.75:8080/info/perf-test
+1723549334967:start-performance-test --count 100000 --url http://192.168.178.75:8080/info/perf-test
+1723550101394:exit
+1723550280738:start-performance-test --help
+1723550323337:start-performance-test --count 1000 --url http://192.168.178.75:8080/info/perf-test
+1723550350038:start-performance-test --count 1000 --url http://192.168.178.75:8080/info/perf-test --help
+1723550381942:exit
+1723550402506:start-performance-test --count 1000 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers
+1723550437458:start-performance-test --count 1000 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers true
+1723550450778:help
+1723550454857:get-cpu-cores
+1723550528808:exit
+1723550547787:start-performance-test --count 1000 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers true
+1723550554488:start-performance-test --count 1000 --url http://192.168.178.75:8080/info/perf-test
+1723550633898:exit
+1723550648484:start-performance-test --count 1000 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers true
+1723550692188:exit
+1723550716642:start-performance-test --count 1000 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers true
+1723550733770:start-performance-test --count 1100 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers true
+1723550745561:start-performance-test --count 1100 --url http://192.168.178.75:8080/info/perf-test
+1723550784140:start-performance-test --count 11000 --url http://192.168.178.75:8080/info/perf-test
+1723550816962:start-performance-test --count 11000 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers
+1723550854521:start-performance-test --count 110000 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers
+1723551010134:start-performance-test --count 110000 --url http://192.168.178.75:8080/info/perf-test
+1723551270389:exit
+1723551316379:start-performance-test --count 11000 --url http://192.168.178.75:8080/info/perf-test
+1723551361202:start-performance-test --count 11000 --url http://192.168.178.75:8080/info/perf-test --cpuWorkers
+1723643529490:start-performance-test --count 10000 --url http://localhost:8080/info/hello
+1723643587058:exit
+1723644198469:start-performance-test --count 10000 --url http://localhost:8080/info/hello
+1723644223160:stacktrace
+1723644405289:exit
+1723644533634:start-performance-test --count 10000 --url http://localhost:8080/info/hello
+1723705423245:start-performance-test --count 1000000 --url http://localhost:8080/info/hello
+1723709970837:exit
+1723710017767:start-performance-test --count 10 --url http://localhost:8080/info/hello
+1723710054251:start-performance-test --url http://localhost:8080/info/hello --count 1000

@@ -17,23 +17,26 @@ class MyShellCommands {
     @ShellMethod("Start Performance Test")
     fun startPerformanceTest(url: String, count: Int): String {
         val start = System.currentTimeMillis()
-        val results = parallelGetRequests(url, count)
+        val latency = parallelGetRequests(url, count)
         val end = System.currentTimeMillis()
-        return "Time taken: ${end - start} ms"
+        return "Time taken: ${end - start} ms\nLatency: $latency"
     }
 
-    fun parallelGetRequests(url: String, count: Int): List<String> = runBlocking {
+    fun parallelGetRequests(url: String, count: Int): Double = runBlocking {
         val results = (1..count).map {
             async(Dispatchers.IO) {
                 performGetRequest(url)
             }
         }.awaitAll()
-        results
+        results.average()
     }
 
-    private fun performGetRequest(url: String): String {
+    private fun performGetRequest(url: String): Long {
+        val start = System.currentTimeMillis()
         val connection = URL(url).openConnection() as HttpURLConnection
-        return connection.inputStream.bufferedReader().use { it.readText() }
+        connection.inputStream.bufferedReader().use { it.readText() }
+        val end = System.currentTimeMillis()
+        return end - start
     }
 
 }
