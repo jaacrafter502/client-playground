@@ -62,3 +62,23 @@
 1723712545079:start-performance-test --url http://localhost:8080/info/hello --count 100000
 1723712639313:start-performance-test --url http://localhost:8080/info/hello --count 10000
 1723712668540:start-performance-test --url http://localhost:8080/info/hello --count 100000
+1723795256003:start-performance-test --url http://localhost:8080/calc/calculate --count 1
+1723795558369:try {
+1723795581631:start-performance-test --url http://localhost:8080/calc/calculate --count 1
+1723795599655:start-performance-test --url http://localhost:8080/calc/calculate --count 100000
+1723795667878:start-performance-test --help
+1723795698040:start-performance-test --url http://localhost:8080/calc/calculate --count 100000
+1723798073910:start-performance-test --url http://localhost:8080/calc/calculate --count 1
+1723798086073:start-performance-test --url http://localhost:8080/calc/calculate --count 10000
+1723798119826:start-performance-test --url http://localhost:8080/calc/calculate --count 100000
+1723798376403:start-performance-test --url http://localhost:8080/calc/calculate --count 10000
+1723798596277:start-performance-test --url http://localhost:8080/calc/calculate --count 1000000
+1723798854581:start-performance-test --url http://localhost:8080/calc/calculate --count 100000
+1723800124902:start-performance-test --url http://localhost:8080/calc/calculate --count 10000
+1723800337504:start-performance-test --url http://localhost:8080/calc/calculate --count 100000
+1723807483989:start-performance-test --url http://localhost:8080/calc/calculate --count 10000
+1723807610240:start-performance-test --url http://localhost:8080/calc/calculate --count 100000
+1723809443547:start-performance-test --url http://localhost:8080/calc/calculate --count 1000000
+1723809845789:start-performance-test --url http://localhost:8080/calc/calculate --count 100000
+1723812069907:start-performance-test --url http://localhost:8080/calc/calculate --count 10000
+1723812101221:start-performance-test --url http://localhost:8080/calc/calculate --count 1000000
